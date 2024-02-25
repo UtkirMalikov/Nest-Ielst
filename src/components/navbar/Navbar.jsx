@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import "./Navbar.css"
+import "./Navbar.scss"
 import { getTopNav } from "./Data"
 function Navbar() {
     const [navItems, setNavItems] = useState([])
